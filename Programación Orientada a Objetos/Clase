@@ -1,0 +1,26 @@
+#Ejemplo de clase
+
+class Persona():
+    #Atributos de una clase (Caracteristicas compartidas por todos los objetos de la clase)
+    nombre = "Cristina"
+    apellido = "Torres"
+    edad = 23
+
+    #Metodos (Comportamientos)
+    def hablar(self):
+        print(f"{self.nombre} esta hablando")
+    
+    def caminar(self):
+        print(f"{self.nombre} esta caminando")
+
+#Creación de objetos de la clase persona
+persona1 = Persona()
+
+#Acceso a los atributos y métodos del objeto
+print(f"Nombre: {persona1.nombre}")
+print(f"Apellidos: {persona1.apellido}")
+print(f"Edad: {persona1.edad} años")
+
+#Llamando a los metodos de la clase
+persona1.hablar()
+persona1.caminar()
