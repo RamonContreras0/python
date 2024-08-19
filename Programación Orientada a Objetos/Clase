@@ -1,6 +1,13 @@
 #Ejemplo de clase
 
 class Persona():
+
+    #Constructor de Clase
+    def __init__(self,nombre, apellido, edad):
+        self.nombre = nombre
+        self.apellido = apellido
+        self.edad = edad
+
     #Atributos de una clase (Caracteristicas compartidas por todos los objetos de la clase)
     nombre = "Cristina"
     apellido = "Torres"
