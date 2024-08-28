@@ -7,8 +7,8 @@ class Persona():
         self.nombre = nombre
         self.apellido = apellido
         self.edad = edad
-        self.altura = altura
-        self.peso = peso
+        self.altura = float(altura)
+        self.peso = float(peso)
         self.nota1 = nota1
         self.nota2 = nota2
         self.nota3 = nota3
